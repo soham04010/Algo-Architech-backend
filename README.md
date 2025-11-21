@@ -8,6 +8,7 @@ The primary role of this backend is to act as a reliable data intermediary. It h
 I chose Django for its stability and comprehensive features, paired with Django REST Framework for quick API creation. The application is structured around a single app, algo_app.
 
 📂Key Implementation Details
+
 1)API Endpoint: The processed commodity data is served via a single, unauthenticated GET request at the path: /api/commodities/.
 
 2)Data Handling: The code in algo_app/views.py uses the standard requests library to fetch the Alpha Vantage data. I implemented logic to handle and clean missing values (the . entries), converting all valid prices into numerical format (float) required for the charting library.
