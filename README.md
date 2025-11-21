@@ -16,6 +16,7 @@ I chose Django for its stability and comprehensive features, paired with Django 
 3)Cross-Origin (CORS) Setup: The django-cors-headers package was configured to allow the separate Next.js frontend application (running on a different port) to access this API without security blocking.
 
 🎯How to Run
+
 1)Clone the repository and set up a Python virtual environment.
 
 2)Install dependencies using pip install.
